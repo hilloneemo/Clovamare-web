@@ -1,0 +1,179 @@
+body {
+    /* 一つの背景画像に合併したらウィンドウサイズによってページ内リンクボタンの位置ずれるので、一つずつ設定することにした
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover; */
+    color: #e9e8eb;
+    text-align: center;
+}
+
+/* Near the breaking line center */
+hr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Link in the page that shifts to the screen below */
+img.jump {
+	/* Vertical so that the button image can be seen on one whole
+	   But I decided to attach a P tag, so I no longer needed it
+    display: block;
+    margin: 0 auto; */
+	/* clear: both; */
+    width: 50px;
+    height: auto;
+    /* デバッグ用
+    border: solid 1px white; */
+}
+/* For debugging
+a#check {
+	border: solid 1px white;
+} */
+
+
+/* Title part */
+/* The entire layout box */
+div.part1 {
+    clear: both;
+    background-image: url(../images/home1_back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+    /* デバッグ用
+    border: solid 1px white; */
+}
+/* Title headline */
+h1.textintro{
+    text-align: left;
+}
+h1 {
+    font-size: 80px;
+    font-family: '游明朝', 'Yu Mincho', 'ＭＳ 明朝', 'MS Mincho', '游明朝体', 'YuMincho', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro';
+    line-height: 1.3em;
+}
+/* Delivery line under the heading */
+img.part1 {
+    padding-top: 5%;
+    width: 20%;
+}
+hr.part1 {
+    width: 610px;
+}
+/* Radians below the heading line */
+p.part1 {
+    margin-bottom: 8%;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 0.2em;
+}
+
+
+
+/* Introduction and PV heading */
+h2 {
+    font-size: 65px;
+    font-family: 'Monotype Corsiva', 'Century';
+    padding-top: 6%;
+}
+
+
+/* Simple introduction part */
+/* The entire layout box */
+div.part2 {
+    background-image: url(../images/home2_back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+    /* デバッグ用
+    border: solid 1px white; */
+}
+/* Delivery line under the heading */
+hr.part2 {
+    width: 220px;
+    margin-bottom: 2%;
+}
+/* Ladocks under the headline breaking line */
+p.part2 {
+    font-size: 17px;
+    line-height: 2em;
+}
+/* Latest work text box */
+#recent {
+    /* width: 500px;
+    height: 400px; */
+    border: solid 1px #e9e8eb;
+    margin: 3% 20% 7% 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow: auto;
+}
+/* Small of text boxes */
+h3 {
+    padding-bottom: 3%;
+    font-size: 22px;
+}
+/* Left and right column of text box */
+div#col1 {
+    float: left;
+    text-align: right;
+    width: 43%;
+}
+div#col2 {
+    float: right;
+    text-align: left;
+    width: 43%;
+}
+
+
+/* PV part */
+/* The entire layout box */
+div.part3 {
+    clear: both;
+    background-image: url(../images/home3_back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow: auto;
+    padding-bottom: 10%;
+    /* デバッグ用
+    border: solid 1px white; */
+}
+/* Division under the heading */
+hr.part3 {
+    width: 300px;
+    margin-bottom: 5%;
+}
+/* Video left and right column */
+div#left {
+    float: center;
+    width: 35%;
+    margin-left: 33%;
+}
+/* Characters under the video */
+p.part3 {
+    margin-top: 4%;
+    font-size: 17px;
+}
+
+/*---------------------footer---------------*/
+
+.icons{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.icons h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: larger;
+}
+.icons img{
+    width: 30px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.icons img:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2)
+}
+h3#even {
+    text-align: center;
+}

@@ -1,0 +1,199 @@
+body {
+    /* background-color: black; */
+    background: url(../images/285101695_419012919904386_4223731055148825775_n.jpg) no-repeat fixed;
+    background-size: 100% auto;
+    color: #e9e8eb;
+}
+
+/* Left navigation */
+/* Overall layout box */
+div.navi {
+    clear: both;
+    position: fixed;
+    left: 6%;
+    /* bottom: 15%;　/* 固定してるため、bottomを設定しないと高さちょっと小さいウィンドウ枠の中では下の部分見えなくなります */
+    top: 20%;
+    float: left;
+    width: 15%;
+}
+/* Headline */
+h1 {
+    /* font-family: '游明朝', 'Yu Mincho', 'ＭＳ 明朝', 'MS Mincho', '游明朝体', 'YuMincho', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro'; */
+    text-align: center;
+    padding-top: 5%;
+    font-size: 37px;
+    padding-bottom: 3%;
+    color: white;
+    font-weight: bolder;
+}
+p#essay{
+    font-size: larger;
+    text-align: justify;
+    text-align-last: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: bold;
+    color: #F8EEEC;
+}
+p#essay{
+    flex-basis: 31%;
+    background: #006400;
+    border-radius: 10px;
+    padding: 40px 24px;
+    box-sizing: border-box;
+    opacity: 100%;
+    margin-bottom: 3%;
+}
+img#between{
+    width: 30%;
+    margin-left: 37%;
+}
+/* Delivery line under the heading */
+hr.navi {
+    width: 215px;
+    margin-bottom: 15px;
+}
+
+/* Lowercase under the break */
+p.navi {
+	padding-bottom: 15%;
+  font-size: 16px;
+	line-height: 1.3em;
+}
+/* Bullet link */
+li.navi {
+    list-style-type: none;
+    text-align: center;
+	  padding: 2px 0;
+}
+a.navi {
+    display: block;
+    color: #e9e8eb;
+    text-decoration: none;
+    border: solid 1px #e9e8eb;
+    margin: 10% 0;
+}
+
+/* theRightWorkShaosuke */
+/* Overall layout box */
+div#text {
+    float: right;
+    width: 65%;
+    margin-right: 9%;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+/* Video column */
+.video {
+    float: left;
+    margin: 30px;
+}
+/* Table of work information */
+table {
+    margin: 23px 23px 23px 0;
+}
+/* Make the title uppercase */
+th {
+    text-align: left;
+    font-size: 20px;
+}
+/* Specific information is displayed in lowercase and light colors */
+td {
+    font-size: 14px;
+    color: #828282;
+    padding-top: 5px;
+}
+/* Set the width because the cell of the item does not automatically break up even in a relatively large window. */
+td.cell {
+    width: 80px;
+}
+/* theTieUpSongNameIsDisplayedInBoldToMakeItALittleEasierToSee */
+em {
+    font-weight: bold;
+}
+/* Light thin separation line between works */
+hr.long {
+    clear: both;
+    border: solid 0.5px #828282;
+}
+
+/* Album page */
+/* Small heading */
+h2 {
+    margin: 40px auto 0 30px;
+    border-left: solid 10px #dc7ea9;
+    padding-left: 10px;
+}
+/* Test message at the top */
+p#attention {
+    margin-left: 30px;
+}
+
+
+
+/* DVDページ */
+/* The video part is displayed in the left and right column */
+div.dvd {
+    float: left;
+    width: 50%;
+    /* margin-right: 5px; */
+    /* margin-left: 50px; */
+    /* overflow: auto; */
+}
+
+/* Since there are only two works, make the letters a little larger */
+th.dvd {
+    font-size: 25px;
+}
+td.dvd {
+    font-size: 17px;
+}
+
+/* Work information To match the width of Table */
+td.item {
+    width: 70px;
+}
+
+/* Expand the space between the video a little */
+iframe.dvd {
+    margin-left: 10px;
+}
+/* Songs and comments under the video */
+p.title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+p.comment {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+/* Make the top space less */
+table.dvd {
+    margin-top: 0;
+}
+/*---------------------footer---------------*/
+
+.icons{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.icons h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: larger;
+}
+.icons img{
+    width: 30px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.icons img:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2)
+}
+

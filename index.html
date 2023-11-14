@@ -1,0 +1,92 @@
+<!-- Creator: Kenzusha Class: PI11A283 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transtional.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-style-type" content="text/css" />
+        <title>HOME PAGE</title>
+        <link rel="stylesheet" type="text/css" href="./css/common.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+    </head>
+
+    <body>
+        <!-- Button to the page top -->
+        <p class="top"><a class="button top" href="#header">TOP↑</a></p>
+
+        <!-- Header part -->
+        <div id="header">
+            <!-- <h1 id="logo">ようこそ、Aimerの世界へ</h1>  -->
+			<!-- The character of the printingり、Microsoft Surfaceのペンを利用して簡単な手書きロゴを作ってみた -->
+            <div class="CLOVERLOGO">
+            <img src="./images/cloverlogo.png" alt="logo" id="logo">
+            </div>
+            <ul class="menu">
+                <li class="menu"><a class="button" href="./index.html" id="highlight">HOME</a></li>
+                <li class="menu"><a class="button" href="./disco.html">CAMPAIGN</a></li>
+                <li class="menu"><a class="button" href="./live_solo.html">MEMBERS</a></li>
+            </ul>
+        </div>
+
+        <!-- title screen -->
+        <div class="part1">
+            <img class="part1" src="images/cloverlogo.png">
+            <h1>CLOVAMARE</h1>
+            <!-- If it is signed, it looks like the left side, so I put a single character space first. -->
+            <hr class="part1">
+            <p class="part1">In a world where environmental concerns have taken center stage,</br> fresh and vibrant breeze of change has emerged.</p>
+
+			<!-- This is a button on the link in the page that shifts to the screen below
+I want to attach a function to press only the square part with a triangular arrow, so I cut it into a stick and a separate image.
+In addition, I displayed it on the block to make the image vertical, but for some reason the entire width of the window frame can be clicked, so I put on the P tag. -->
+            <p><a href="#intro"><img class="jump" src="./images/jump1x.png" alt="arrow"></a></p>
+            <p><img class="jump" src="./images/jump2x_1.png" alt="arrow"></p>
+        </div>
+
+        <!-- 簡単な紹介画面 -->
+        <div class="part2" id="intro">
+        	<!-- 上の画像の続き、ページ内リンクのボタンが二つの画面とも半々占めさせたいので上下のボックスレイアウトdivに分かれて入れることにした -->
+            <p><img class="jump" src="./images/jump2x_2.png" alt="arrow"></p>
+            <h2>About</h2>
+            <hr class="part2">
+            <p class="part2">"Clovamare," a dynamic group of environmentalist influencers </br>who are sowing the seeds of positive change and nurturing </br>a greener, more sustainable future.<br></p>
+            <div id="recent">
+                <h3 id="even">Latest Projects</h3>
+                <div id="col1">
+                    <p class="part2">Grow a Community Garden<br>2018.09.05</p>
+                    <br>
+                    <p class="part2">Local Waste Cleanup<br>2018.02.21</p>
+                </div>
+                <div id="col2">
+                    <p class="part2">River Cleansing<br>2017.05.03</p>
+                    <br>
+                    <p class="part2">Volunteering at an Animal Shelter<br>2016.09.21</p>
+                </div>
+            </div>
+            <p><a href="#pv"><img class="jump" src="./images/jump1x.png" alt="arrow"></a></p>
+            <p><img class="jump" src="./images/jump2x_1.png" alt="arrow"></p>
+        </div>
+
+        <!-- The latest PV screen -->
+        <div class="part3" id="pv">
+            <p><img class="jump" src="./images/jump2x_2.png" alt="arrow"></p>
+            <h2>CAMPAIGN</h2>
+            <hr class="part3">
+            <div id="left">
+                <video class="video" width="350" height="197" controls>
+                    <source src="videos/conserve contribvute and comply finished.mp4" type="video/mp4">
+                </video>
+                <p class="part3">DESCRIPTION FOR CAMPAIGN</p>
+            </div>
+        </div>
+
+        <!-- Footer part -->
+        <div id="footer">
+            <!-- <hr> -->
+            <p id="copyright">Copyright &copy; 2018 Clovamare. All rights reserved.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=61552760772944" target="_blank" rel="noopener noreferrer"><img src="images/icons/icons8-facebook-48.png"></a>
+                <a href="https://www.instagram.com/clovamare_official/?igshid=NzZlODBkYWE4Ng%3D%3D&fbclid=IwAR22Xws50YQbjUmsAQatyJmTBkkqzJFW62_-9wpO9WqQrqb3qVEBbvLPlDk" target="_blank" rel="noopener noreferrer"><img src="images/icons/icons8-instagram-48.png"></a>
+            </div>
+        </div>
+    </body>
+</html>
